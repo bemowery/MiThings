@@ -7,7 +7,27 @@ https://peeepers.github.io/MiThings/
 
 #####**10/20/2016:**
 
-Moving infrastructure away from DigialOcean/OVH to Azure. Expect some downtime!
+~~Moving infrastructure away from DigialOcean/OVH to Azure. Expect some downtime!~~
+
+The move didn't go as smooth as I had planned, and I was forced to roll out version 2.0 early. The old cloud code wasn't handling the 100s of connections from my monitoring suite.
+
+Everyone's lights probably went a little crazy -- sorry about that. I'll remember for next time.
+
+Users: I've made endpoint changes to the SmartThings app. You'll need to edit the line, or do a Git pull from the UI to update.
+
+File: smartapps/cloudsyjared/milight-manager.src/milight-manager.groovy
+
+Line 84: ```uri:  'https://lights.cloudsy.com/v1/',```
+
+Needs to be changed to:
+
+```uri:  'https://api.mithings.pw/v1/'```
+
+There is a new cloud server endpoint, please update your hubs:
+
+```TCP,38899,cloud.mithings.pw```
+
+Issues? Post them on Github.
 
 #####**05/13/2016:**
 
