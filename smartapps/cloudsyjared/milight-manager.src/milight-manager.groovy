@@ -81,7 +81,7 @@ def buildColorPath(hex, evt) {
 
 def httpCall(path, mac, evt) {
     def params = [
-        uri:  'http://lights.cloudsy.com/v1/',
+        uri:  'https://cloud.mithings.pw/v1/',
         path: "$path",
         contentType: 'application/json',
         headers: [MAC:"$mac"]
