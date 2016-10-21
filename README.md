@@ -25,7 +25,7 @@ Needs to be changed to:
 
 There is a new cloud server endpoint, please update your hubs:
 
-```TCP,38899,cloud.mithings.pw```
+**TCP,38899,cloud.mithings.pw**
 
 Issues? Post them on Github.
 
