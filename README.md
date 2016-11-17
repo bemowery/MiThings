@@ -5,6 +5,9 @@ https://peeepers.github.io/MiThings/
 
 ### Latest news:
 
+#####**11/16/2016:**
+Reached my 150$ hard cap for the month in the cloud. Services will resume next billing period (next week).
+
 #####**10/20/2016:**
 
 ~~Moving infrastructure away from DigialOcean/OVH to Azure. Expect some downtime!~~
