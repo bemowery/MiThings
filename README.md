@@ -1,7 +1,7 @@
 # MiThings
 MiLight / LimitlessLED / EasyBulb integration with SmartThings
 
-https://peeepers.github.io/MiThings/
+https://jjensn.github.io/MiThings/
 
 ### Latest news:
 
